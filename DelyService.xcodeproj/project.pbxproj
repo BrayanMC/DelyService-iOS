@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		186BB010243F8F50E53AC5A8 /* Pods_DelyService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECE039731EC5C0D0BC8EC16 /* Pods_DelyService.framework */; };
 		26390E3A246B0C460027935A /* ChefProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26390E39246B0C460027935A /* ChefProductsViewController.swift */; };
 		26390E3C246B0C4F0027935A /* ChefProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26390E3B246B0C4F0027935A /* ChefProductsViewModel.swift */; };
 		26390E3E246B0C590027935A /* ChefProducts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26390E3D246B0C590027935A /* ChefProducts.storyboard */; };
@@ -52,8 +51,9 @@
 		26D39E0224626858002FBA1F /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D39E0124626858002FBA1F /* UIApplication+.swift */; };
 		26D39E0424626B40002FBA1F /* AlertableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D39E0324626B40002FBA1F /* AlertableController.swift */; };
 		26D39E1624628759002FBA1F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D39E1524628759002FBA1F /* Environment.swift */; };
-		944217B006D964224914FBD0 /* Pods_DelyService_DelyServiceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ECC9AEFA70BD3C37E65250 /* Pods_DelyService_DelyServiceUITests.framework */; };
-		98DF75EAA736C5765A04CA2C /* Pods_DelyServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39554E632150181FB8DF195 /* Pods_DelyServiceTests.framework */; };
+		4BB14B5400DA0E6CF9597FCC /* Pods_DelyService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEEDF8DC7A84398B64C6D92 /* Pods_DelyService.framework */; };
+		703114AAB6DB2C1E50713754 /* Pods_DelyService_DelyServiceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADFAAA0518F7BA4B324CE3F /* Pods_DelyService_DelyServiceUITests.framework */; };
+		F8C79555BD7959762241916D /* Pods_DelyServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4142E0D96A263B507C7847 /* Pods_DelyServiceTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,21 +124,21 @@
 		26D39E0124626858002FBA1F /* UIApplication+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIApplication+.swift"; path = "DelyService/Extensions/UIApplication+.swift"; sourceTree = SOURCE_ROOT; };
 		26D39E0324626B40002FBA1F /* AlertableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertableController.swift; sourceTree = "<group>"; };
 		26D39E1524628759002FBA1F /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		2ECE039731EC5C0D0BC8EC16 /* Pods_DelyService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelyService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35209D01D9DFC8EABD575BAB /* Pods-DelyService-DelyServiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService-DelyServiceUITests.release.xcconfig"; path = "Target Support Files/Pods-DelyService-DelyServiceUITests/Pods-DelyService-DelyServiceUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4050956C3D71FDDF9FC57BF9 /* Pods-DelyServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyServiceTests.release.xcconfig"; path = "Target Support Files/Pods-DelyServiceTests/Pods-DelyServiceTests.release.xcconfig"; sourceTree = "<group>"; };
-		5945E1F1CC4E6187DEA2FAED /* Pods-DelyServiceTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyServiceTests.dev.xcconfig"; path = "Target Support Files/Pods-DelyServiceTests/Pods-DelyServiceTests.dev.xcconfig"; sourceTree = "<group>"; };
-		7CABF7772B98785EB0628982 /* Pods-DelyService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService.release.xcconfig"; path = "Target Support Files/Pods-DelyService/Pods-DelyService.release.xcconfig"; sourceTree = "<group>"; };
-		7D5C41812F798E2E67FC5A17 /* Pods-DelyService-DelyServiceUITests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService-DelyServiceUITests.qa.xcconfig"; path = "Target Support Files/Pods-DelyService-DelyServiceUITests/Pods-DelyService-DelyServiceUITests.qa.xcconfig"; sourceTree = "<group>"; };
-		94861941A567D16FDB4E16BD /* Pods-DelyService.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService.production.xcconfig"; path = "Target Support Files/Pods-DelyService/Pods-DelyService.production.xcconfig"; sourceTree = "<group>"; };
-		B88639D60AA8D52612B50119 /* Pods-DelyServiceTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyServiceTests.production.xcconfig"; path = "Target Support Files/Pods-DelyServiceTests/Pods-DelyServiceTests.production.xcconfig"; sourceTree = "<group>"; };
-		C2FCCE4A41805C7F7DF68508 /* Pods-DelyService-DelyServiceUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService-DelyServiceUITests.production.xcconfig"; path = "Target Support Files/Pods-DelyService-DelyServiceUITests/Pods-DelyService-DelyServiceUITests.production.xcconfig"; sourceTree = "<group>"; };
-		C39554E632150181FB8DF195 /* Pods_DelyServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelyServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6CEAA10C0E5B37F81133391 /* Pods-DelyService.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService.dev.xcconfig"; path = "Target Support Files/Pods-DelyService/Pods-DelyService.dev.xcconfig"; sourceTree = "<group>"; };
-		CE9592FC6BB6D4A6AAE3AF20 /* Pods-DelyService-DelyServiceUITests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService-DelyServiceUITests.dev.xcconfig"; path = "Target Support Files/Pods-DelyService-DelyServiceUITests/Pods-DelyService-DelyServiceUITests.dev.xcconfig"; sourceTree = "<group>"; };
-		D9ECC9AEFA70BD3C37E65250 /* Pods_DelyService_DelyServiceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelyService_DelyServiceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE962006F127583E31ECD995 /* Pods-DelyService.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService.qa.xcconfig"; path = "Target Support Files/Pods-DelyService/Pods-DelyService.qa.xcconfig"; sourceTree = "<group>"; };
-		E626B55BA0895B8A413E39FD /* Pods-DelyServiceTests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyServiceTests.qa.xcconfig"; path = "Target Support Files/Pods-DelyServiceTests/Pods-DelyServiceTests.qa.xcconfig"; sourceTree = "<group>"; };
+		2D62192AC86BAFC98E1C3F4A /* Pods-DelyService-DelyServiceUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService-DelyServiceUITests.production.xcconfig"; path = "Target Support Files/Pods-DelyService-DelyServiceUITests/Pods-DelyService-DelyServiceUITests.production.xcconfig"; sourceTree = "<group>"; };
+		4B877765A331A0C00C4C52D7 /* Pods-DelyServiceTests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyServiceTests.dev.xcconfig"; path = "Target Support Files/Pods-DelyServiceTests/Pods-DelyServiceTests.dev.xcconfig"; sourceTree = "<group>"; };
+		4C4142E0D96A263B507C7847 /* Pods_DelyServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelyServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E4CDC98F860F98CFD7F524 /* Pods-DelyService-DelyServiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService-DelyServiceUITests.release.xcconfig"; path = "Target Support Files/Pods-DelyService-DelyServiceUITests/Pods-DelyService-DelyServiceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C303BC943C43231BB88795B /* Pods-DelyService.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService.dev.xcconfig"; path = "Target Support Files/Pods-DelyService/Pods-DelyService.dev.xcconfig"; sourceTree = "<group>"; };
+		A04BBA2922426E6FDC732EF9 /* Pods-DelyService-DelyServiceUITests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService-DelyServiceUITests.qa.xcconfig"; path = "Target Support Files/Pods-DelyService-DelyServiceUITests/Pods-DelyService-DelyServiceUITests.qa.xcconfig"; sourceTree = "<group>"; };
+		A495D04CCEE575E24C2EEA3C /* Pods-DelyServiceTests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyServiceTests.qa.xcconfig"; path = "Target Support Files/Pods-DelyServiceTests/Pods-DelyServiceTests.qa.xcconfig"; sourceTree = "<group>"; };
+		A79CA4BD1534C6D87882EF8F /* Pods-DelyServiceTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyServiceTests.production.xcconfig"; path = "Target Support Files/Pods-DelyServiceTests/Pods-DelyServiceTests.production.xcconfig"; sourceTree = "<group>"; };
+		C3AA899E2784120FE2B3331E /* Pods-DelyService.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService.qa.xcconfig"; path = "Target Support Files/Pods-DelyService/Pods-DelyService.qa.xcconfig"; sourceTree = "<group>"; };
+		D8D1328140DDF780DE3BF34C /* Pods-DelyService.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService.production.xcconfig"; path = "Target Support Files/Pods-DelyService/Pods-DelyService.production.xcconfig"; sourceTree = "<group>"; };
+		DADFAAA0518F7BA4B324CE3F /* Pods_DelyService_DelyServiceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelyService_DelyServiceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEEDF8DC7A84398B64C6D92 /* Pods_DelyService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelyService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A262566836FD1BDB3B1310 /* Pods-DelyService-DelyServiceUITests.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService-DelyServiceUITests.dev.xcconfig"; path = "Target Support Files/Pods-DelyService-DelyServiceUITests/Pods-DelyService-DelyServiceUITests.dev.xcconfig"; sourceTree = "<group>"; };
+		F530F82032D2DC8C76E024F3 /* Pods-DelyServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyServiceTests.release.xcconfig"; path = "Target Support Files/Pods-DelyServiceTests/Pods-DelyServiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		F987C6A1932A75E1261F2483 /* Pods-DelyService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelyService.release.xcconfig"; path = "Target Support Files/Pods-DelyService/Pods-DelyService.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186BB010243F8F50E53AC5A8 /* Pods_DelyService.framework in Frameworks */,
+				4BB14B5400DA0E6CF9597FCC /* Pods_DelyService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98DF75EAA736C5765A04CA2C /* Pods_DelyServiceTests.framework in Frameworks */,
+				F8C79555BD7959762241916D /* Pods_DelyServiceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				944217B006D964224914FBD0 /* Pods_DelyService_DelyServiceUITests.framework in Frameworks */,
+				703114AAB6DB2C1E50713754 /* Pods_DelyService_DelyServiceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,18 +172,18 @@
 		02A424B26A1CF0978FEEA0D0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C6CEAA10C0E5B37F81133391 /* Pods-DelyService.dev.xcconfig */,
-				94861941A567D16FDB4E16BD /* Pods-DelyService.production.xcconfig */,
-				DE962006F127583E31ECD995 /* Pods-DelyService.qa.xcconfig */,
-				7CABF7772B98785EB0628982 /* Pods-DelyService.release.xcconfig */,
-				CE9592FC6BB6D4A6AAE3AF20 /* Pods-DelyService-DelyServiceUITests.dev.xcconfig */,
-				C2FCCE4A41805C7F7DF68508 /* Pods-DelyService-DelyServiceUITests.production.xcconfig */,
-				7D5C41812F798E2E67FC5A17 /* Pods-DelyService-DelyServiceUITests.qa.xcconfig */,
-				35209D01D9DFC8EABD575BAB /* Pods-DelyService-DelyServiceUITests.release.xcconfig */,
-				5945E1F1CC4E6187DEA2FAED /* Pods-DelyServiceTests.dev.xcconfig */,
-				B88639D60AA8D52612B50119 /* Pods-DelyServiceTests.production.xcconfig */,
-				E626B55BA0895B8A413E39FD /* Pods-DelyServiceTests.qa.xcconfig */,
-				4050956C3D71FDDF9FC57BF9 /* Pods-DelyServiceTests.release.xcconfig */,
+				7C303BC943C43231BB88795B /* Pods-DelyService.dev.xcconfig */,
+				D8D1328140DDF780DE3BF34C /* Pods-DelyService.production.xcconfig */,
+				C3AA899E2784120FE2B3331E /* Pods-DelyService.qa.xcconfig */,
+				F987C6A1932A75E1261F2483 /* Pods-DelyService.release.xcconfig */,
+				F3A262566836FD1BDB3B1310 /* Pods-DelyService-DelyServiceUITests.dev.xcconfig */,
+				2D62192AC86BAFC98E1C3F4A /* Pods-DelyService-DelyServiceUITests.production.xcconfig */,
+				A04BBA2922426E6FDC732EF9 /* Pods-DelyService-DelyServiceUITests.qa.xcconfig */,
+				59E4CDC98F860F98CFD7F524 /* Pods-DelyService-DelyServiceUITests.release.xcconfig */,
+				4B877765A331A0C00C4C52D7 /* Pods-DelyServiceTests.dev.xcconfig */,
+				A79CA4BD1534C6D87882EF8F /* Pods-DelyServiceTests.production.xcconfig */,
+				A495D04CCEE575E24C2EEA3C /* Pods-DelyServiceTests.qa.xcconfig */,
+				F530F82032D2DC8C76E024F3 /* Pods-DelyServiceTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 				264A610D24589E410040E61A /* DelyServiceUITests */,
 				264A60EA24589E3D0040E61A /* Products */,
 				02A424B26A1CF0978FEEA0D0 /* Pods */,
-				6B7C2962ABD8EDA70A8E500B /* Frameworks */,
+				292A7E350E3769BC653D7549 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -382,12 +382,12 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		6B7C2962ABD8EDA70A8E500B /* Frameworks */ = {
+		292A7E350E3769BC653D7549 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2ECE039731EC5C0D0BC8EC16 /* Pods_DelyService.framework */,
-				D9ECC9AEFA70BD3C37E65250 /* Pods_DelyService_DelyServiceUITests.framework */,
-				C39554E632150181FB8DF195 /* Pods_DelyServiceTests.framework */,
+				DDEEDF8DC7A84398B64C6D92 /* Pods_DelyService.framework */,
+				DADFAAA0518F7BA4B324CE3F /* Pods_DelyService_DelyServiceUITests.framework */,
+				4C4142E0D96A263B507C7847 /* Pods_DelyServiceTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -399,7 +399,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 264A611324589E410040E61A /* Build configuration list for PBXNativeTarget "DelyService" */;
 			buildPhases = (
-				0C09E3C0D1172B4FC49340B0 /* [CP] Check Pods Manifest.lock */,
+				9FE97F9EAAE9302A91C1300B /* [CP] Check Pods Manifest.lock */,
 				264A60E524589E3D0040E61A /* Sources */,
 				264A60E624589E3D0040E61A /* Frameworks */,
 				264A60E724589E3D0040E61A /* Resources */,
@@ -418,7 +418,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 264A611624589E410040E61A /* Build configuration list for PBXNativeTarget "DelyServiceTests" */;
 			buildPhases = (
-				636517C8703355ED04ADC95D /* [CP] Check Pods Manifest.lock */,
+				A67754C031FA4C7A2FA14809 /* [CP] Check Pods Manifest.lock */,
 				264A60FB24589E410040E61A /* Sources */,
 				264A60FC24589E410040E61A /* Frameworks */,
 				264A60FD24589E410040E61A /* Resources */,
@@ -437,7 +437,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 264A611924589E410040E61A /* Build configuration list for PBXNativeTarget "DelyServiceUITests" */;
 			buildPhases = (
-				E63CB66E589BD864CDD5D622 /* [CP] Check Pods Manifest.lock */,
+				FF7C4158A6249DA9B04EDC31 /* [CP] Check Pods Manifest.lock */,
 				264A610624589E410040E61A /* Sources */,
 				264A610724589E410040E61A /* Frameworks */,
 				264A610824589E410040E61A /* Resources */,
@@ -529,7 +529,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C09E3C0D1172B4FC49340B0 /* [CP] Check Pods Manifest.lock */ = {
+		26EB788A25F3FE16000C6A04 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n# So SwiftLint build script will run locally before the build, but will be skipped on CI server.\n#if [ -z \"$CI\" ]; then\n#    ${PODS_ROOT}/SwiftLint/swiftlint\n#fi\n";
+		};
+		9FE97F9EAAE9302A91C1300B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,24 +568,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		26EB788A25F3FE16000C6A04 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n# So SwiftLint build script will run locally before the build, but will be skipped on CI server.\n#if [ -z \"$CI\" ]; then\n#    ${PODS_ROOT}/SwiftLint/swiftlint\n#fi\n";
-		};
-		636517C8703355ED04ADC95D /* [CP] Check Pods Manifest.lock */ = {
+		A67754C031FA4C7A2FA14809 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -590,7 +590,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E63CB66E589BD864CDD5D622 /* [CP] Check Pods Manifest.lock */ = {
+		FF7C4158A6249DA9B04EDC31 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -814,7 +814,7 @@
 		};
 		264A611424589E410040E61A /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6CEAA10C0E5B37F81133391 /* Pods-DelyService.dev.xcconfig */;
+			baseConfigurationReference = 7C303BC943C43231BB88795B /* Pods-DelyService.dev.xcconfig */;
 			buildSettings = {
 				APPLICATION_NAME = "Dely Service Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -836,7 +836,7 @@
 		};
 		264A611524589E410040E61A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CABF7772B98785EB0628982 /* Pods-DelyService.release.xcconfig */;
+			baseConfigurationReference = F987C6A1932A75E1261F2483 /* Pods-DelyService.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_NAME = "Dely Service";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -858,7 +858,7 @@
 		};
 		264A611724589E410040E61A /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5945E1F1CC4E6187DEA2FAED /* Pods-DelyServiceTests.dev.xcconfig */;
+			baseConfigurationReference = 4B877765A331A0C00C4C52D7 /* Pods-DelyServiceTests.dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -881,7 +881,7 @@
 		};
 		264A611824589E410040E61A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4050956C3D71FDDF9FC57BF9 /* Pods-DelyServiceTests.release.xcconfig */;
+			baseConfigurationReference = F530F82032D2DC8C76E024F3 /* Pods-DelyServiceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -904,7 +904,7 @@
 		};
 		264A611A24589E410040E61A /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE9592FC6BB6D4A6AAE3AF20 /* Pods-DelyService-DelyServiceUITests.dev.xcconfig */;
+			baseConfigurationReference = F3A262566836FD1BDB3B1310 /* Pods-DelyService-DelyServiceUITests.dev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -925,7 +925,7 @@
 		};
 		264A611B24589E410040E61A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35209D01D9DFC8EABD575BAB /* Pods-DelyService-DelyServiceUITests.release.xcconfig */;
+			baseConfigurationReference = 59E4CDC98F860F98CFD7F524 /* Pods-DelyService-DelyServiceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1006,7 +1006,7 @@
 		};
 		26D39E0E24627F1C002FBA1F /* QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE962006F127583E31ECD995 /* Pods-DelyService.qa.xcconfig */;
+			baseConfigurationReference = C3AA899E2784120FE2B3331E /* Pods-DelyService.qa.xcconfig */;
 			buildSettings = {
 				APPLICATION_NAME = "Dely Service QA";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1028,7 +1028,7 @@
 		};
 		26D39E0F24627F1C002FBA1F /* QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E626B55BA0895B8A413E39FD /* Pods-DelyServiceTests.qa.xcconfig */;
+			baseConfigurationReference = A495D04CCEE575E24C2EEA3C /* Pods-DelyServiceTests.qa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1051,7 +1051,7 @@
 		};
 		26D39E1024627F1C002FBA1F /* QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D5C41812F798E2E67FC5A17 /* Pods-DelyService-DelyServiceUITests.qa.xcconfig */;
+			baseConfigurationReference = A04BBA2922426E6FDC732EF9 /* Pods-DelyService-DelyServiceUITests.qa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1132,7 +1132,7 @@
 		};
 		26D39E12246286C2002FBA1F /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94861941A567D16FDB4E16BD /* Pods-DelyService.production.xcconfig */;
+			baseConfigurationReference = D8D1328140DDF780DE3BF34C /* Pods-DelyService.production.xcconfig */;
 			buildSettings = {
 				APPLICATION_NAME = "Dely Service Prod";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1154,7 +1154,7 @@
 		};
 		26D39E13246286C2002FBA1F /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B88639D60AA8D52612B50119 /* Pods-DelyServiceTests.production.xcconfig */;
+			baseConfigurationReference = A79CA4BD1534C6D87882EF8F /* Pods-DelyServiceTests.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1177,7 +1177,7 @@
 		};
 		26D39E14246286C2002FBA1F /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2FCCE4A41805C7F7DF68508 /* Pods-DelyService-DelyServiceUITests.production.xcconfig */;
+			baseConfigurationReference = 2D62192AC86BAFC98E1C3F4A /* Pods-DelyService-DelyServiceUITests.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

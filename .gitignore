@@ -41,7 +41,7 @@ UserInterfaceState.xcuserstate
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
-*.xcworkspace
+#*.xcworkspace
 
 # Swift Package Manager
 #

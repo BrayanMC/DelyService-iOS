@@ -1,1 +1,0 @@
-# DelyService-iOS
